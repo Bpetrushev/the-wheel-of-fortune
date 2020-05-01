@@ -86,7 +86,7 @@ function eventListener(event){
             const stopAt = Math.floor(Math.random() * (360/numberSegments)) + (((360/numberSegments)*stopAtSegment) - (360/numberSegments));
             theWheel.animation.stopAngle = stopAt;
             theWheel.startAnimation()
-            setInterval(() => { wheelSpinning = false; }, secondsSpinning*1000);
+            setTimeout(() => { wheelSpinning = false; }, secondsSpinning*1000);
         }
     }
 }
