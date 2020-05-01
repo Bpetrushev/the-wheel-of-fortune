@@ -1,0 +1,37 @@
+body {
+    text-align: center;
+    margin: 0;
+}
+
+#canvasContainer {
+    position: relative;
+}
+ 
+#myCanvas {
+    margin-top: 50px;
+    z-index: 1;
+}
+ 
+#prizePointer {
+    position: absolute;
+    left: 0px;
+    top: 10px;
+    z-index: 999;
+}
+
+#inputSegment {
+    height: 40px;
+}
+
+button {
+    background-color: #fff;
+    border: 2px solid rgb(133, 133, 235);
+    border-radius: 5px;
+    padding: 10px 20px;
+    outline: none;
+}
+
+button:hover{
+    background-color: rgb(133, 133, 235);
+    border-color: cornsilk;
+}
