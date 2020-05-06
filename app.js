@@ -86,7 +86,7 @@ function randomAngle(segment){
 
 function generateRandomSegment(i){
     const num = Math.floor(Math.random() * numberSegments) + 1;
-    return (num === stopAtSegment1 || num === stopAtSegment2 || num === arrNumSegments[i-1] || num === arrNumSegments[i+1] ) === true ? generateRandomSegment(i) : num;
+    return (num === stopAtSegment1 || num === stopAtSegment2 || num === arrNumSegments[i-1] || num === arrNumSegments[i+1] === true ) ? generateRandomSegment(i) : num;
 }
 
 //generate positions for unique sectors
